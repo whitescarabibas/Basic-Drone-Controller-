@@ -4,7 +4,6 @@ local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
 -- Variables --
--- Reference to the drone model and its PrimaryPart
 local Drone = script.Parent
 local DronePrimaryPart = Drone.PrimaryPart
 
