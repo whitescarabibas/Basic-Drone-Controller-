@@ -1,13 +1,3 @@
---[[ Drone Controller Server Side Script :
-     This Script Handles:
-     • Basic Drone Movement	(Forward/Backward/Left/Right/up/Down)
-     • Drone Tilting Based On Movement Direction
-     • Camera Movement Based On Drone Movement
-     • Stable Hovering Using VectorForce To Counteract Gravity Preventing The Drone From Falling When Going Up
-     • Drone Rotating Based On Cam Position
-     • Spinning Propellers TweenSerivce Animation
---]]
-
 --// Services \\--
 local RST = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
