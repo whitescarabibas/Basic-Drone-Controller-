@@ -33,7 +33,7 @@ local DownConnection
 -- Increasement rate for the tilt angle applied when moving
 local TiltRate = 5
 --// Functions \\--
--- Move the drone in a specific direction depending on the direction
+-- Moves the drone in a specific direction 
 local function MoveDrone(Direction)
 	if Direction == "Forward" then
 		Drone:PivotTo(Drone:GetPivot() * CFrame.new(0,0,-1))
